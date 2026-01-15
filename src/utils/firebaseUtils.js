@@ -6,7 +6,6 @@ import {
   doc, 
   updateDoc, 
   deleteDoc,
-  setDoc,
   writeBatch 
 } from 'firebase/firestore';
 
