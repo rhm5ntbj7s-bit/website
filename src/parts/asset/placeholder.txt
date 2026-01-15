@@ -1,0 +1,1 @@
+This folder is for storing assets like images, icons, and other media files.

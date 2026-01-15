@@ -1,0 +1,56 @@
+.basket {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.basket h2 { margin-bottom: 20px; }
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  background: white;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.item button {
+  padding: 5px 15px;
+  cursor: pointer;
+  border: none;
+  background: #ddd;
+  border-radius: 3px;
+}
+
+.item button:hover { background: #ccc; }
+
+.total {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total button {
+  padding: 10px 30px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.total button:hover { background: #45a049; }
